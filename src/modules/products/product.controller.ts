@@ -3,7 +3,7 @@ import { ProductService } from './product.service';
 import { ResponseData } from 'src/global/globalClass';
 import { HttpMessage, HttpStatus } from 'src/global/globalEnum';
 import { Product } from 'src/models/producr.model';
-import { ProductDto } from 'dto/product.dto';
+import { ProductDto } from 'src/dto/product.dto';
 
 @Controller('products')
 export class ProductController {
